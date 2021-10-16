@@ -29,3 +29,8 @@ Software Used: R Studio 2021.09.0 Build 351, Visual Studio Code 1.60.2
 <img src= "Resources/Lot_3_test.png">
 
 ## Study Design: MechaCar vs Competition
+* There are many factors that go into a consumers decision to purchase a vehicle, and in order to best position the MechaCar in the market, we need to identify where and how it stacks up against our competitors.
+* Our target demographic values speed and acceleration very highly when making decisions, and that is where we want to see where the MechaCar stacks up. We will analyze the MechaCar's acceleration by looking at the time it takes to go from 0-60mph, as well as the MechaCar's top speed, and compare these to our competitors averages in those categories. 
+* Our alternative hypothesis in this scenario would be that there is a statistically significant difference between the MechaCar in those two metrics compared to our competitors.
+* By running two seperate t-tests for acceleration and speed compared to our competitors, we will be able to see if our product is in line with the competition, beats them, or falls behind.
+* We would need the 0-60 times and top speeds for a number of production MechaCars, to have a large enough sample. We would also need the overall mean in each metric in our production caategory (ie Sports Car, or Sedan).
