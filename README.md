@@ -20,7 +20,12 @@ Software Used: R Studio 2021.09.0 Build 351, Visual Studio Code 1.60.2
 <img src= "Resources/lot_summary.png">
 
 ## T-Tests on Suspension Coils
-* When running a one sample T-test on our sample mean vs the population mean of 1500 PSI, we get a p-value of 0.06. This is above our 0.05 significance level and indicates that we cannot reject the null hypothesis and that the two means are statistically similar
+* When running a one sample T-test on our sample mean vs the population mean of 1500 PSI, we get a p-value of 0.06. This is above our 0.05 alpha and indicates that we cannot reject the null hypothesis and that the two means are statistically similar
 <img src= "Resources/one_sample_t.png">
 
-* 
+* We ran the same analysis (a one sample t-test) but this time comparing each lot individually to the given population mean of 1500 PSI. In this analysis we found that the p-values in both Lot 1 and Lot 2 were greater than our alpha and therefore with the given evidence we cannot reject the null hypothesis and can determine that the mean of each lot is similar to the population mean. The p-value for lot one was 1.0, as the mean was 1500 for both the sample and overall population, and for Lot 2 the p-value was .60.
+
+* For Lot 3 however, our p-value was 0.04, which is below our alpha. Therefore we can reject the null hypothesis and determine that there is a statistically significant difference between the mean of Lot 3 and the population mean. With this information, we know that we need to focus in on Lot 3 to determine what if anything changed in the manufacturing process to lead to this difference.
+<img src= "Resources/Lot_3_test.png">
+
+## Study Design: MechaCar vs Competition
